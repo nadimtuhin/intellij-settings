@@ -1,0 +1,171 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log($START$);$END$" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="im" value="import $NAME$ from '$NAME$';" description="import node module" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imf" value="import { $NAME$ } from '$MODULE$';" description="import from" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iml" value="import $NAME$ from './$MODULE$';" description="import local" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imls" value="import $NAME$ from '.$DIR$/$NAME$';" description="import local same" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DIR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imless" value="import &quot;./style.less&quot;;" description="import less" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xdf" value="export default function $NAME$() {&#10;&#10;}" description="export default function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xd" value="export default $SEMI_COLON$" description="export default" toReformat="false" toShortenFQNames="true">
+    <variable name="SEMI_COLON" expression="" defaultValue=";" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="collect" value="function mapStateAsProps(state) {&#10;    return {&#10;        $NAME$: state.$NAME$&#10;    };&#10;}" description="redux collect" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dispatcher" value="function mapActionsAsProps(dispatch) {&#10;    return {&#10;        $FN$($DATA$) {&#10;            dispatch($ACTION$);&#10;        }&#10;    };&#10;}" description="redux dispatcher" toReformat="false" toShortenFQNames="true">
+    <variable name="FN" expression="" defaultValue="func" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="data" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="doAction" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pure" value="import shouldPureComponentUpdate from 'react-pure-render/function';&#10;shouldComponentUpdate = shouldPureComponentUpdate;&#10;" description="pure component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fdn" value="import { findDOMNode } from 'react-dom';" description="find dom node" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mtest" value="import expect from 'expect';&#10;import $FILE$ from './$FILE$';&#10;&#10;describe('$DESCRIBE$', () =&gt; {&#10;&#10;});" description="mocha test" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="clipboard()" defaultValue="method" alwaysStopAt="true" />
+    <variable name="DESCRIBE" expression="" defaultValue="description" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$SHOULD_DO_SOMETHING$', () =&gt; {&#10;    $END$&#10;    expect(true).toEqual(true);&#10;});" description="mocha it" toReformat="false" toShortenFQNames="true">
+    <variable name="SHOULD_DO_SOMETHING" expression="" defaultValue="it should do something" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="des" value="describe('$DESCRIBE$', () =&gt; {&#10;    it('$SHOULD_DO_SOMETHING$', () =&gt; {&#10;        $END$&#10;        expect(true).toEqual(true);&#10;    });&#10;});" description="mocha describe" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIBE" expression="" defaultValue="description" alwaysStopAt="true" />
+    <variable name="SHOULD_DO_SOMETHING" expression="" defaultValue="it should do something" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ilo" value="import $MODULE$ from 'lodash/$MODULE$';" description="import from lodash" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cx" value="import cx from 'classnames';" description="import classnames" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xf" value="export function $NAME$() {&#10;    $END$&#10;}" description="export function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="camelCase(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@ob" value="@observable $END$;" description="observable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@ac" value="@action $METHOD$() {&#10;    &#10;}" description="action" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imob" value="import { observable, action } from 'mobx';" description="import mobx" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imobr" value="import { observer } from 'mobx-react';" description="import mobx" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="me" value="module.exports = $NAME$;" description="module.exports" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mef" value="module.exports = funciton $NAME$() {&#10;&#10;}" description="module.exports = function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="test" value="test('$SHOULD_DO_SOMETHING$', () =&gt; {&#10;    $END$&#10;    const result = true;&#10;    const expectedResult = true;&#10;    expect(result).toEqual(expectedResult);&#10;});" description="jest test" toReformat="false" toShortenFQNames="true">
+    <variable name="SHOULD_DO_SOMETHING" expression="" defaultValue="it should do something" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ete" value="expect($START$).toEqual($END$);" description="expect to equal" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="etb" value="expect($START$).toBe($END$);" description="expect to be" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="et" value="expect($START$).to$METHOD$($END$);" description="expect to" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

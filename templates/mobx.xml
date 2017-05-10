@@ -1,0 +1,12 @@
+<templateSet group="mobx">
+  <template name="imob" value="import { observable } from 'mobx';" description="import observable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imobr" value="import { observer } from 'mobx-react';" description="import observer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

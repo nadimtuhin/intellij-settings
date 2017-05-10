@@ -1,0 +1,21 @@
+<templateSet group="Vue">
+  <template name="vcc" value="const $COMPONENT$ = {&#10;    name: '$COMPONENT$',&#10;    props: { $PROPS$ },&#10;    components: { $COMPONENTS$ },&#10;    render(h) { //eslint-disable-line&#10;        return (&#10;            &lt;div&gt;$CONTENT$&lt;/div&gt;&#10;        );    &#10;    },&#10;};&#10;&#10;export default $COMPONENT$;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMPONENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pt" value="$NAME$: {&#10;    type: $TYPE$,&#10;    required: $TRUE$&#10;}," description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="Function" alwaysStopAt="true" />
+    <variable name="TRUE" expression="" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
