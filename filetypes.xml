@@ -1,9 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping pattern=".env" type=".env file" />
       <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern=".makefile" type="PLAIN_TEXT" />
