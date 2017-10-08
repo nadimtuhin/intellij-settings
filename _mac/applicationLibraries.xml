@@ -2,10 +2,10 @@
   <component name="libraryTable">
     <library name="Python 3.6.1 virtualenv at ~/projects/cookupsbackend/venv interpreter library">
       <CLASSES>
-        <root url="file://$USER_HOME$/projects/cookupsbackend/venv/lib/python3.6" />
-        <root url="file://$USER_HOME$/projects/cookupsbackend/venv/lib/python3.6/lib-dynload" />
+        <root url="file://$USER_HOME$/projects/cookupsbackend/src/venv/lib/python3.6" />
+        <root url="file://$USER_HOME$/projects/cookupsbackend/src/venv/lib/python3.6/lib-dynload" />
         <root url="file:///usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-        <root url="file://$USER_HOME$/projects/cookupsbackend/venv/lib/python3.6/site-packages" />
+        <root url="file://$USER_HOME$/projects/cookupsbackend/src/venv/lib/python3.6/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.1/python_stubs/-1121827772" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
@@ -19,10 +19,10 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$USER_HOME$/projects/cookupsbackend/venv/lib/python3.6" />
-        <root url="file://$USER_HOME$/projects/cookupsbackend/venv/lib/python3.6/lib-dynload" />
+        <root url="file://$USER_HOME$/projects/cookupsbackend/src/venv/lib/python3.6" />
+        <root url="file://$USER_HOME$/projects/cookupsbackend/src/venv/lib/python3.6/lib-dynload" />
         <root url="file:///usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-        <root url="file://$USER_HOME$/projects/cookupsbackend/venv/lib/python3.6/site-packages" />
+        <root url="file://$USER_HOME$/projects/cookupsbackend/src/venv/lib/python3.6/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.1/python_stubs/-1121827772" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
