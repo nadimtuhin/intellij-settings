@@ -3,5 +3,28 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>p</mask>
+      <mask>py</mask>
+      <mask>.py</mask>
+      <mask>.j</mask>
+      <mask>.js</mask>
+      <mask>*.j</mask>
+      <mask>*.p</mask>
+      <mask>*.py</mask>
+      <mask>js</mask>
+      <mask>j</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
+    </recentFileMasks>
   </component>
 </application>
