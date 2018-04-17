@@ -8,6 +8,7 @@
       <mapping pattern="celerybeat-schedule" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="prod" type="PLAIN_TEXT" />
+      <mapping ext="scss" type="PostCSS" />
     </extensionMap>
   </component>
 </application>
