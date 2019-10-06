@@ -2,8 +2,11 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping ext="webp" type="Native" />
       <mapping pattern=".env-development" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
