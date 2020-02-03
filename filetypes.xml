@@ -5,6 +5,7 @@
       <mapping ext="webp" type="Native" />
       <mapping pattern=".env-development" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="pest" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
